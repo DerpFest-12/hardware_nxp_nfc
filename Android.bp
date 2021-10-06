@@ -16,6 +16,12 @@
   *
  ******************************************************************************/
 
+soong_namespace {
+    imports: [
+        "hardware/nxp/secure_element",
+    ],
+}
+
 package {
     default_applicable_licenses: ["hardware_nxp_nfc_license"],
 }
